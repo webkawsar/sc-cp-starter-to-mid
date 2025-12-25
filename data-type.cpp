@@ -11,18 +11,23 @@ using namespace std;
 
 
 int main() {
-    
-    cout <<"Hello VS Code!"<<endl;
 
-    int result = 100;
-    char text = 'K';
+    // cout <<"Hello VS Code!"<<endl;
 
-    cout <<result<<endl;
-    cout <<text<<endl;
+    // int result = 100;
+    // char text = 'K';
 
-    int x = 10.89;
-    double y = 3.14;
+    // cout <<result<<endl;
+    // cout <<text<<endl;
 
-    cout <<typeid(x).name()<<endl;
-    cout <<typeid(y).name()<<endl;
+    // int x = 10.89;
+    // double y = 3.14;
+
+    // cout <<typeid(x).name()<<endl;
+    // cout <<typeid(y).name()<<endl;
+
+
+    int a, b, c;
+    cin >>a>>b>>c;
+    cout<<c<<b<<a;
 }
