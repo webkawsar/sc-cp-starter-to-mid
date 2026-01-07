@@ -1,4 +1,5 @@
 #include <iostream>
+#include<iomanip>
 using namespace std;
 
 // E. Area of a Circle
@@ -9,9 +10,9 @@ int main() {
 
     int r;
     cin >> r;
-
-    float result = 3.141592653 * (r * r);
-    cout << result;
-}   
+    
+    double result = 3.141592653 * (r * 2);
+    cout << result << setprecision(9);
+}
 
 
