@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
 
+// variable
+// constant
+
 int main() {
 
     int a = 3;

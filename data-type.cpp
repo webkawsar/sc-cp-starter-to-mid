@@ -9,6 +9,7 @@ using namespace std;
 // type modifiers
 
 
+
 int main() {
 
     // cout <<"Hello VS Code!"<<endl;
@@ -26,9 +27,17 @@ int main() {
     // cout <<typeid(y).name()<<endl;
 
 
-    int a, b, c;
-    cin >>a>>b>>c;
-    cout<<c<<b<<a;
+    // int a, b, c;
+    // cin >>a>>b>>c;
+    // cout<<c<<b<<a;
+
+
+    // boolean
+    bool isCodingFun = true;
+    bool isFishTasty = false;
+    cout << isCodingFun<<endl;  // Outputs 1 (true)
+    cout << isFishTasty;  // Outputs 0 (false)
+
 }
 
 
@@ -36,7 +45,7 @@ int main() {
 /********************************** Note ******************************/
 
 // C++-এর Data Type মূলত ৪ প্রকার:
-// 1️⃣ Basic (Primitive) Data Type  ==> int, float, double, char, bool, 
+// 1️⃣ Basic (Primitive) Data Type  ==> int, float, double, char, bool, string
 // 2️⃣ Derived Data Type  ==> array, pointer, reference
 // 3️⃣ User Defined Data Type  ==> struct, union, enum, typedef, 
 // 4️⃣ Void Data Type  ==> 
