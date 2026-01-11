@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 
@@ -32,11 +33,22 @@ int main() {
     // cout<<c<<b<<a;
 
 
+    // string 
+    string name = "Kawsar Ahmed";
+    cout << name << endl;
+
+
     // boolean
     bool isCodingFun = true;
     bool isFishTasty = false;
-    cout << isCodingFun<<endl;  // Outputs 1 (true)
-    cout << isFishTasty;  // Outputs 0 (false)
+    cout << isCodingFun << endl;  // Outputs 1 (true)
+    cout << isFishTasty << endl;  // Outputs 0 (false)
+
+
+    // The auto Keyword
+    auto x = 10;
+    cout << x;
+
 
 }
 
