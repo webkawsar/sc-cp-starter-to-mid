@@ -47,7 +47,7 @@ int main() {
     // string txt = "Hello World!";
     // cout << txt.back() << endl;
 
-    
+
 
 
     // Checks whether the string is empty
@@ -68,5 +68,45 @@ int main() {
 
 
 
+    // access the characters in a string by referring to its index number inside square brackets []
+    // string myString = "Hello Duniya!";
+    // cout << myString[0] << endl;
+    // cout << myString[6] << endl;
+    // cout << myString[myString.length() - 1];
+
+
+
+    // To change the value of a specific character in a string
+    // string myString = "Hello Duniya!";
+    // myString[6] = 'M';
+    // cout << myString << endl;
+
+
+
+    // string fName;
+    // cout << "Type your first name: ";
+    // cin >> fName; // get user input from the keyboard
+    // cout << "Your name is: " << fName;
+
+    
+
+
+    // string fullName;
+    // cout << "Type your full name: ";
+    // getline (cin, fullName);
+    // cout << "Your name is: " << fullName << endl;
+
+    // string profession;
+    // cout << "Profession: ";
+    // getline(cin, profession);
+    // cout << "Your profession: " << profession;
+
+
+
+
+    string greeting1 = "Hello Duniya!";  // Regular String
+    char greeting2[] = "Hello Duniya Again";  // C-Style String (an array of characters)
+    cout << greeting1 << endl;
+    cout << greeting2 << endl;
 
 }
