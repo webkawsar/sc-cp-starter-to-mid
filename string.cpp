@@ -16,10 +16,19 @@ int main() {
     // cout << firstName << endl;
 
     // concatenation
-    cout << firstName + lastName << "\n";
+    // cout << firstName + lastName << "\n";
     
-    string fullName = firstName + " " + lastName;
-    cout << fullName << endl;
+    // string fullName = firstName + " " + lastName;
+    // cout << fullName << endl;
 
+    // concatenate strings with the append() function
+    // string fullName = firstName.append(lastName);
+    // string fullName = firstName.append("Ahmed");
+    // cout << fullName << endl;
+
+    // best practice recommended by w3 schools
+    string fullName = firstName;   // আগে copy
+    fullName.append("Ahmed");     // তারপর append
+    cout << fullName << endl;
 
 }
