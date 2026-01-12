@@ -31,4 +31,7 @@ int main() {
     fullName.append("Ahmed");     // তারপর append
     cout << fullName << endl;
 
+    // string some function
+    // string.at()
+
 }
