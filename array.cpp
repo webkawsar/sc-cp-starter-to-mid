@@ -15,21 +15,32 @@ int main() {
 
 
 
-    
+
     // dynamic array 
-    int n;
-    cin >> n;
+    // int n;
+    // cin >> n;
 
-    int numbers[n];
-    for (int i = 0; i < n; i++){
-        cin >> numbers[i];
-    }
+    // int numbers[n];
+    // for (int i = 0; i < n; i++){
+    //     cin >> numbers[i];
+    // }
 
-    int sum = 0;
-    for (int i = 0; i < n; i++){
-        sum += numbers[i];
-    }
+    // int sum = 0;
+    // for (int i = 0; i < n; i++){
+    //     sum += numbers[i];
+    // }
     
-    cout << sum;
+    // cout << sum;
+
+
+
+
+    // array declare without size
+    int numbers[] = {1, 3, 5, 7};
+    cout << numbers[2];
+
+
+    // array ==> pass by reference use kore.
+
   
 }
