@@ -1,2 +1,1 @@
-= "Hello World!";
-    // cout << txt.back();
+(time >= 18) ? "You can vote" : "You are not a voter"
