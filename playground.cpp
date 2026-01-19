@@ -2,19 +2,18 @@
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;
+    
+    string word;
+    getline(cin, word);
 
-    while (T--) {
-        int n;
-        cin >> n;
-
-        if (n <= 10) {
-            cout << 0 << " " << n << "\n";
-        } else {
-            cout << 10 << " " << (n - 10) << "\n";
+    string modifiedWord  = "";
+    for (char c : word) {
+        if(c != ' ') {
+            modifiedWord += c;
         }
     }
 
-    return 0;
+    cout << modifiedWord;
+
+    
 }
