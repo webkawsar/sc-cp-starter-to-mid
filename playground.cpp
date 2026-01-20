@@ -2,19 +2,14 @@
 using namespace std;
 
 int main() {
-    int T;
-    cin >> T;
+   
+    int w;
+    cin >> w;
 
-    while (T--) {
-        int n;
-        cin >> n;
-
-        if (n <= 10) {
-            cout << 0 << " " << n << "\n";
-        } else {
-            cout << 10 << " " << (n - 10) << "\n";
-        }
+    if (w > 2 && w % 2 == 0) {
+        cout << "YES";
+    } else {
+        cout << "NO";
     }
-
-    return 0;
+    
 }
