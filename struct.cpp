@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
   
+  // unnamed structure
   struct {
   	int id;
     string name;
