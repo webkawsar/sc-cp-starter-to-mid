@@ -21,18 +21,39 @@ void printName(int a) {
     cout << a << "\n";
 }
 
+// int sum(int a, int b, int c) {
+//     return a + b + c;
+// }
+
+
+int sum(int a, int b=10, int c=20) {
+    return a + b + c;
+}
+
 int main() {
    
     int a = 10;
     int b = 20;
 
-    cout << add(a, b) << endl;
+    // cout << add(a, b) << endl;
 
  
     // same name 2ta function hote parbe na
     // jodi same name function ekadik hoy tokhon, function er parameter er upor depend kore oi function call korbe
-    printName("Kawsar");
-    printName(100);
+    // printName("Kawsar");
+    // printName(100);
+
+
+    // function default parameter 
+    int first = 100;
+    int second = 200;
+    int third = 300;
+
+    // je parameter er default value set korbo er porer sob koyta parameter er default value set na korle error show korbe
+    // cout << sum(first, second, third);
+    cout << sum(first, second, third);
+
+
 
 
 
