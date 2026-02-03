@@ -16,6 +16,13 @@ void sum(int& a) {
 }
 
 
+// pass by reference but constant
+void sum(const int& a) {
+    // a += 5;
+    cout << "Inside Function: " << a << "\n";
+}
+
+
 int main() {
    
     int x = 10;

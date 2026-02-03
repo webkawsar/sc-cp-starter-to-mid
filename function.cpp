@@ -5,6 +5,8 @@ using namespace std;
 // basic function
 // ekta function er vitore arekta function declare kora jay na
 // function e copy by value hoy
+// lamda function
+
 
 
 
