@@ -2,7 +2,9 @@
 using namespace std;
 
 // topic
+// parameter => jekhan theke default value dibo er porer sob parameter er default value set korte hobe na hole error asbe
 // recursion function
+
 
 // 48 minute theke
 // pass by value 
